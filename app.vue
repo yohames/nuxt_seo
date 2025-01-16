@@ -14,11 +14,11 @@ useHead({
     },
     {
       property: "og:image",
-      content: "images/wallpaperflare.jpg",
+      content: "https://nuxt-seo-sigma.vercel.app/images/wallpaperflare.jpg",
     },
-    { name: "og:title", content: "Nuxt Movies" },
+    { name: "og:title", content: "Nuxt SEO DEMO" },
     { name: "og:type", content: "website" },
-    { name: "og:url", content: "https://movies.nuxt.space" },
+    { name: "og:url", content: "https://nuxt-seo-sigma.vercel.app/" },
     {
       name: "og:description",
       content:
@@ -29,7 +29,7 @@ useHead({
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:site", content: "@afrotimes_ET" },
     { name: "twitter:creator", content: "@afrotimes_ET" },
-    { name: "twitter:title", content: "Nuxt Movies" },
+    { name: "twitter:title", content: "Nuxt SEO DEMO" },
     {
       name: "twitter:description",
       content:
@@ -37,7 +37,12 @@ useHead({
     },
     {
       name: "twitter:image",
-      content: "images/wallpaperflare.jpg",
+      content: "https://nuxt-seo-sigma.vercel.app/images/wallpaperflare.jpg",
+    },
+
+    {
+      name: "keywords",
+      content: "nuxt, seo, demo, vue, javascript",
     },
   ],
   link: [
