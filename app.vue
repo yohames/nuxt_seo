@@ -14,7 +14,7 @@ useHead({
     },
     {
       property: "og:image",
-      content: "https://movies.nuxt.space/images/wallpaperflare.jpg",
+      content: "images/wallpaperflare.jpg",
     },
     { name: "og:title", content: "Nuxt Movies" },
     { name: "og:type", content: "website" },
@@ -37,7 +37,7 @@ useHead({
     },
     {
       name: "twitter:image",
-      content: "https://movies.nuxt.space/images/wallpaperflare.jpg",
+      content: "images/wallpaperflare.jpg",
     },
   ],
   link: [
